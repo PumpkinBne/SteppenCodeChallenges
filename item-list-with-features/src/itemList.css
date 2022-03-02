@@ -1,0 +1,16 @@
+
+.item > .remove-button {
+    visibility: hidden;
+}
+
+.item > .edit-button {
+    visibility: hidden;
+}
+
+.item:hover > .edit-button {
+    visibility: visible;
+}
+
+.item:hover > .remove-button {
+    visibility: visible;
+}
